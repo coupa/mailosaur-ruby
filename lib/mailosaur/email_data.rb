@@ -8,6 +8,7 @@ class EmailData
   def initialize(hash)
     @links =hash.has_key?('links') ? hash['links'].map { |a| Link.new(a) } : nil
     @body = hash['body']
+    hash['images'] = [] if hash['images'].nil?
     @images = hash.has_key?('images') ? hash['images'].map { |a| Image.new(a) } : nil
   end
 end
