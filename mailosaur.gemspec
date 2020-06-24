@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name        = 'mailosaur'
-  s.version     = '6.0.6'
-  s.date        = '2020-06-11'
+  s.version     = '3.0.0'
+  s.date        = '2016-04-28'
   s.summary     = 'Client library for Mailosaur'
   s.description = 'Gem containing ruby client library for Mailosaur.'
   s.authors     = ['Clickity Ltd']
